@@ -15,21 +15,21 @@ const Header = () => {
                 <NavLink className ="nav-link" to="/" style={{"color":"gold"}}>Home</NavLink>
             </Col>
             <Col xs={4} className="d-flex justify-content-center align-items-center">
-                <Navbar.Brand href="/" style={{"color":"rgb(124 58 237)"}}>
+                <Navbar.Brand href="https://portfolio0826.onrender.com" target="_blank" style={{"color":"rgb(124 58 237)"}}>
                 <FontAwesomeIcon icon={faHouse} />
                 </Navbar.Brand>
-                <Navbar.Brand href="/" style={{"color":"rgb(124 58 237)"}}>
+                <Navbar.Brand href="https://github.com/axol26" target="_blank" style={{"color":"rgb(124 58 237)"}}>
                     <FontAwesomeIcon icon={faGithub} />
                 </Navbar.Brand>
-                <Navbar.Brand href="/" style={{"color":"rgb(124 58 237)"}}>
+                <Navbar.Brand href="https://www.linkedin.com/in/leonard-amiel-nania/" target="_blank" style={{"color":"rgb(124 58 237)"}}>
                     <FontAwesomeIcon icon={faLinkedin} />
                 </Navbar.Brand>
             </Col>
             <Col xs={4} className="d-flex justify-content-end align-items-center">
-                <a href="https://www.google.com" target="_blank">
+                <a href="https://bookmarket.onrender.com" target="_blank">
                     <Button variant="outline-info" className="me-2">Buy Books</Button>
                 </a>
-                <a href="https://www.google.com" target="_blank">
+                <a href="http://booklib.somee.com" target="_blank">
                     <Button variant="outline-info">Borrow Books</Button>
                 </a>
             </Col>
