@@ -13,6 +13,11 @@ COPY . .
 
 # Build arguments for environment variables
 ARG REACT_APP_API_BASE_URL
+ARG REACT_APP_PORTFOLIO
+ARG REACT_APP_GITHUB
+ARG REACT_APP_LINKEDIN
+ARG REACT_APP_VUE
+ARG REACT_APP_ASPX
 
 # Build the React app
 RUN npm run build
