@@ -16,11 +16,11 @@ const Header = () => {
             </Col>
             <Col xs={4} className="d-flex justify-content-center align-items-center">
                 <Navbar.Brand href={process.env.REACT_APP_PORTFOLIO} target="_blank" style={{"color":"rgb(124 58 237)"}}>
-                <FontAwesomeIcon icon={faHouse} />
+                    <FontAwesomeIcon icon={faHouse} />
                 </Navbar.Brand>
-                <Navbar.Brand href={process.env.REACT_APP_GITHUB} target="_blank" style={{"color":"rgb(124 58 237)"}}>
+                {/* <Navbar.Brand href={process.env.REACT_APP_GITHUB} target="_blank" style={{"color":"rgb(124 58 237)"}}>
                     <FontAwesomeIcon icon={faGithub} />
-                </Navbar.Brand>
+                </Navbar.Brand> */}
                 <Navbar.Brand href={process.env.REACT_APP_LINKEDIN} target="_blank" style={{"color":"rgb(124 58 237)"}}>
                     <FontAwesomeIcon icon={faLinkedin} />
                 </Navbar.Brand>
